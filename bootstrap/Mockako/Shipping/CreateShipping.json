@@ -1,0 +1,12 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/shipping"
+  },
+  "response": {
+    "status": "ok",
+    "body": {
+      "ShippingId": "<#= System.Guid.NewGuid() #>"
+    }
+  }
+}

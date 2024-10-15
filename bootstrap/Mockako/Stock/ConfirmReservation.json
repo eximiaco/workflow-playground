@@ -1,0 +1,10 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/stock-confirmation/{reservationId}"
+  },
+  "response": {
+    "status": "ok",
+    "body": {}
+  }
+}

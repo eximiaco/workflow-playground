@@ -1,0 +1,12 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/payments"
+  },
+  "response": {
+    "status": "ok",
+    "body": {
+      "PaymentId": "<#= System.Guid.NewGuid() #>"
+    }
+  }
+}

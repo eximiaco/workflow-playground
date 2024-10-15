@@ -1,0 +1,10 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/payments/{paymentId}/refund"
+  },
+  "response": {
+    "status": "ok",
+    "body": {}
+  }
+}

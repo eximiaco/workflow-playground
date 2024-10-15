@@ -1,0 +1,12 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/stock-reservation"
+  },
+  "response": {
+    "status": "ok",
+    "body": {
+      "ReservationId": "<#= System.Guid.NewGuid() #>"
+    }
+  }
+}

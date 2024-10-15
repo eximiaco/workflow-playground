@@ -1,0 +1,12 @@
+﻿{
+  "request": {
+    "method": "POST",
+    "route": "/shipping/{shippingId}/cancel"
+  },
+  "response": {
+    "status": "ok",
+    "body": {
+      "ShippingId": "<#= System.Guid.NewGuid() #>"
+    }
+  }
+}
